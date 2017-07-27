@@ -1,0 +1,29 @@
+{
+    "name": "ljyljy0211/wxapp-aes",
+    "description": "微信小程序登录验证",
+    "keywords": [
+        "wechat",
+        "weixin",
+        "weixin-sdk",
+        "sdk",
+        "wxapp",
+        "wxapp-login"
+    ],
+    "homepage": "http://github.com/ljyljy0211/wxapp-aes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ljyljy0211",
+            "email": "ljyljy0211@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shopex\\Wxapp\\": "src/"
+        }
+    }
+}
